@@ -6,9 +6,9 @@ var charSpec =   ['!','@','#','$','%','^','&','*','(',')']
 
 function getPasswordCriteria() {
   var userPickNumbers = confirm('Hello Human! Do you want numbers in your password?');
-  var userPickLowerCs = confirm('Do you want lower case letters in your password?');
-  var userPickUpperCs = confirm('Do you want upper case letters in your password?');
-  var userPickCharSpec = confirm('Do you want special characters in your password?');
+  var userPickLowerCs = confirm('Would you like to use lower case letters in your password?');
+  var userPickUpperCs = confirm('Would you like to use upper case letters in your password?');
+  var userPickCharSpec = confirm('Would you like to use special characters in your password?');
   var options = {
     userPickNumbers: userPickNumbers,
     userPickLowerCs: userPickLowerCs,
